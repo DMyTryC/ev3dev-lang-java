@@ -66,14 +66,18 @@
                 <section>
                     <h2>Create a Java Project with Maven</h2>
                     <p>
-Update your file pom.xml with:
+Update your file pom.xml adding this repository:
                     </p>
                     <pre><code data-trim contenteditable>
     <repository>
         <id>jitpack.io</id>
         <url>https://jitpack.io</url>
     </repository>
-
+                    </code></pre>
+                    <p>
+and the dependency:
+                    </p>                    
+                    <pre><code data-trim contenteditable>                    
     <dependency>
         <groupId>com.github.jabrena</groupId>
         <artifactId>ev3dev-lang-java</artifactId>

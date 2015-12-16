@@ -1,0 +1,22 @@
+{
+  "name": "ev3dev-lang-java",
+  "version": "0.2.0",
+  "description": "*EV3Dev-lang-Java* is a Java library designed to develop Software for Robots on [EV3Dev](http://www.ev3dev.org/) with [OpenCV](http://opencv.org/), [LeJOS](http://www.lejos.org/), [eSpeak](http://espeak.sourceforge.net/) and other Robotics libraries.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jabrena/ev3dev-lang-java.git"
+  },
+  "author": "Juan Antonio Breña Moral <bren@juanantonio.info> (http://www.juanantonio.info)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jabrena/ev3dev-lang-java/issues"
+  },
+  "homepage": "https://github.com/jabrena/ev3dev-lang-java#readme",
+  "dependencies": {
+    "reveal.js": "^3.2.0"
+  }
+}

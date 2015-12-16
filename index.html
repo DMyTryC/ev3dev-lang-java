@@ -1,7 +1,57 @@
-<html>
+<!doctype html>
+<html lang="en">
 <head>
+    <meta charset="utf-8">
+
+    <title>EV3Dev Lang Java</title>
+
+    <meta name="description" content="EV3Dev Lang Java">
+    <meta name="author" content="Juan Antonio Breña Moral">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui"> 
+
+    <link rel="stylesheet" href="Styles/reveal.css">
+    <link rel="stylesheet" href="Styles/theme/black.css" id="theme">       
 </head>
 <body>
-	<h1>hello world</h1>
+    <div class="reveal">
+        <div class="slides">
+            <section>Single Horizontal Slide</section>
+            <section>
+                <section>Vertical Slide 1</section>
+                <section>Vertical Slide 2</section>
+            </section>
+        </div>
+    </div>
+
+    <script src="Scripts/reveal.js"></script>
+
+    <script>
+
+        // Full list of configuration options available at:
+        // https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+
+            transition: 'concave', // none/fade/slide/convex/concave/zoom
+
+            // Optional reveal.js plugins
+            /*
+            dependencies: [
+                { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } }
+            ]
+            */
+        });
+
+    </script>    
 </body>
 </html>

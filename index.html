@@ -63,23 +63,73 @@
                 <section>
                     <h2>Getting Started</h2>
                 </section>
-                <section>Vertical Slide 2</section>
                 <section>
-                    <h2>Pretty Code</h2>
+                    <h2>Create a Java Project with Maven</h2>
+                    <p>
+Update your file pom.xml with:
+                    </p>
                     <pre><code data-trim contenteditable>
-function linkify( selector ) {
-  if( supports3DTransforms ) {
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
 
-    var nodes = document.querySelectorAll( selector );
+    <dependency>
+        <groupId>com.github.jabrena</groupId>
+        <artifactId>ev3dev-lang-java</artifactId>
+        <version>v0.2.0</version>
+    </dependency>    
+                    </code></pre>
+                </section>
+                <section>
+                    <h2>Example</h2>
+                    <pre><code data-trim contenteditable>
+package ev3dev.examples.demo;
 
-    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-      var node = nodes[i];
+import ev3dev.hardware.Battery;
+import ev3dev.hardware.port.MotorPort;
+import ev3dev.hardware.port.SensorPort;
+import ev3dev.hardware.motor.EV3LargeRegulatedMotor;
+import ev3dev.hardware.sensor.ev3.EV3IRSensor;
+import lejos.robotics.SampleProvider;
 
-      if( !node.className ) {
-        node.className += ' roll';
-      }
+public class Test {
+
+    public static void main(String[] args) {
+
+        EV3IRSensor ir1 = new EV3IRSensor(SensorPort.S2);
+        SampleProvider sp = ir1.getDistanceMode();
+        int distance = 255;
+
+        EV3LargeRegulatedMotor mA = new EV3LargeRegulatedMotor(MotorPort.A);
+        EV3LargeRegulatedMotor mB = new EV3LargeRegulatedMotor(MotorPort.B);
+        mA.setSpeed(50);
+        mB.setSpeed(50);
+
+        final int distance_threshold = 35;
+        final int iteration_threshold = 100;
+
+        for(int i = 0; i <= iteration_threshold; i++) {
+            System.out.println(Battery.getVoltage());
+            mA.forward();
+            mB.forward();
+
+            float [] sample = new float[sp.sampleSize()];
+            sp.fetchSample(sample, 0);
+            distance = (int)sample[0];
+
+            if(distance <= distance_threshold){
+                mA.stop();
+                mB.stop();
+                break;
+            }else {
+                System.out.println(distance);
+            }
+        }
+
+        mA.stop();
+        mB.stop();      
     }
-  }
 }
                     </code></pre>
                 </section>                

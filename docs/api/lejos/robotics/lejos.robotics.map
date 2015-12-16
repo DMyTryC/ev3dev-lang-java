@@ -1,0 +1,18 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./BaseMotor.html" title="lejos.robotics.BaseMotor" alt="" coords="61,177,211,330"/>
+<area shape="rect" id="node1" href="./BaseMotor.html" title="&lt;TABLE&gt;" alt="" coords="50,171,222,335"/>
+<area shape="rect" id="node3_1" href="./DCMotor.html" title="lejos.robotics.DCMotor" alt="" coords="15,510,171,615"/>
+<area shape="rect" id="node3" href="./DCMotor.html" title="&lt;TABLE&gt;" alt="" coords="5,505,182,621"/>
+<area shape="rect" id="node5_2" href="./RegulatedMotor.html" title="lejos.robotics.RegulatedMotor" alt="" coords="217,390,554,735"/>
+<area shape="rect" id="node5" href="./RegulatedMotor.html" title="&lt;TABLE&gt;" alt="" coords="206,385,565,741"/>
+<area shape="rect" id="node2_3" href="./Calibrate.html" title="lejos.robotics.Calibrate" alt="" coords="509,11,638,117"/>
+<area shape="rect" id="node2" href="./Calibrate.html" title="&lt;TABLE&gt;" alt="" coords="498,6,649,122"/>
+<area shape="rect" id="node4_4" href="./Encoder.html" title="lejos.robotics.Encoder" alt="" coords="308,11,463,117"/>
+<area shape="rect" id="node4" href="./Encoder.html" title="&lt;TABLE&gt;" alt="" coords="297,6,473,122"/>
+<area shape="rect" id="node8_5" href="./Tachometer.html" title="lejos.robotics.Tachometer" alt="" coords="300,209,471,298"/>
+<area shape="rect" id="node8" href="./Tachometer.html" title="&lt;TABLE&gt;" alt="" coords="289,203,481,303"/>
+<area shape="rect" id="node6_6" href="./RegulatedMotorListener.html" title="lejos.robotics.RegulatedMotorListener" alt="" coords="683,11,1269,117"/>
+<area shape="rect" id="node6" href="./RegulatedMotorListener.html" title="&lt;TABLE&gt;" alt="" coords="673,6,1279,122"/>
+<area shape="rect" id="node7_7" href="./SampleProvider.html" title="lejos.robotics.SampleProvider" alt="" coords="1314,11,1579,117"/>
+<area shape="rect" id="node7" href="./SampleProvider.html" title="&lt;TABLE&gt;" alt="" coords="1303,6,1590,122"/>
+</map>

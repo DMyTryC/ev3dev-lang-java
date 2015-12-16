@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="../../ev3dev/hardware/motor/BaseRegulatedMotor.html" title="ev3dev.hardware.motor.BaseRegulatedMotor" alt="" coords="16,630,925,1231"/>
+<area shape="rect" id="node1" href="../../ev3dev/hardware/motor/BaseRegulatedMotor.html" title="&lt;TABLE&gt;" alt="" coords="5,625,936,1237"/>
+<area shape="rect" id="node2_1" href="./BaseMotor.html" title="lejos.robotics.BaseMotor" alt="" coords="189,11,339,165"/>
+<area shape="rect" id="node2" href="./BaseMotor.html" title="&lt;TABLE&gt;" alt="" coords="178,6,350,170"/>
+<area shape="rect" id="node3_2" href="./RegulatedMotor.html" title="lejos.robotics.RegulatedMotor" alt="" coords="302,225,639,570"/>
+<area shape="rect" id="node3" href="./RegulatedMotor.html" title="&lt;TABLE&gt;" alt="" coords="291,219,650,575"/>
+<area shape="rect" id="node4_3" href="./Tachometer.html" title="lejos.robotics.Tachometer" alt="" coords="385,43,556,133"/>
+<area shape="rect" id="node4" href="./Tachometer.html" title="&lt;TABLE&gt;" alt="" coords="375,38,567,138"/>
+<area shape="rect" id="node5_4" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Closeable.html" title="java.io.Closeable" alt="" coords="601,43,687,133"/>
+<area shape="rect" id="node5" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Closeable.html" title="&lt;TABLE&gt;" alt="" coords="591,38,697,138"/>
+</map>

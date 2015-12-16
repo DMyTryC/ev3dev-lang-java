@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./EV3GyroSensor.html" title="ev3dev.hardware.sensor.ev3.EV3GyroSensor" alt="" coords="16,27,261,149"/>
+<area shape="rect" id="node1" href="./EV3GyroSensor.html" title="&lt;TABLE&gt;" alt="" coords="5,22,272,154"/>
+<area shape="rect" id="node2_1" href="./EV3GyroSensor.AngleMode.html" title="ev3dev.hardware.sensor.ev3.EV3GyroSensor.AngleMode" alt="" coords="307,11,573,165"/>
+<area shape="rect" id="node2" href="./EV3GyroSensor.AngleMode.html" title="&lt;TABLE&gt;" alt="" coords="297,6,583,170"/>
+<area shape="rect" id="node3_2" href="./EV3IRSensor.html" title="ev3dev.hardware.sensor.ev3.EV3IRSensor" alt="" coords="618,35,849,141"/>
+<area shape="rect" id="node3" href="./EV3IRSensor.html" title="&lt;TABLE&gt;" alt="" coords="607,30,859,146"/>
+<area shape="rect" id="node4_3" href="./EV3IRSensor.DistanceMode.html" title="ev3dev.hardware.sensor.ev3.EV3IRSensor.DistanceMode" alt="" coords="894,19,1159,157"/>
+<area shape="rect" id="node4" href="./EV3IRSensor.DistanceMode.html" title="&lt;TABLE&gt;" alt="" coords="883,14,1170,162"/>
+<area shape="rect" id="node5_4" href="./EV3TouchSensor.html" title="ev3dev.hardware.sensor.ev3.EV3TouchSensor" alt="" coords="1205,35,1451,141"/>
+<area shape="rect" id="node5" href="./EV3TouchSensor.html" title="&lt;TABLE&gt;" alt="" coords="1194,30,1462,146"/>
+<area shape="rect" id="node6_5" href="./EV3TouchSensor.TouchMode.html" title="ev3dev.hardware.sensor.ev3.EV3TouchSensor.TouchMode" alt="" coords="1497,27,1762,149"/>
+<area shape="rect" id="node6" href="./EV3TouchSensor.TouchMode.html" title="&lt;TABLE&gt;" alt="" coords="1486,22,1773,154"/>
+</map>

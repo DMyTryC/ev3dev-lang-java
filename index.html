@@ -26,6 +26,20 @@
         p.black {
             color: black;
         }
+
+        .reveal section img {
+            margin: none; 
+            background: rgba(255, 255, 255, 0.0);
+            border: none;
+            box-shadow: none;
+        }
+
+#contentColumn1 {
+    float:left;
+}
+#contentColumn2 {
+    float:left;
+}
     </style>
 
     <!-- Code syntax highlighting -->
@@ -52,16 +66,28 @@
                 <h3 class="black">EV3Dev-lang-Java is a Java library designed to interact with hardware managed by EV3Dev.</h3>
             </section>
             <section>
+                <section data-background="./Media/Images/ev37.jpg">
+                    <h2>Why use this library?</h2>
+                    <p>
+If you have used previous Lego Mindstorms Products, you noticed that it was impossible to install a Full featured Operating System. With the Third generation, EV3 and the Open Source project EV3Dev, you will code in the exact way that you do in your Desktop/Server environments.
+                    </p>
+                </section>
                 <section data-background="./Media/Images/rcx5.jpg">
                     <h2>Why</h2>
                     <p>
-In 1998, LEGO released Robotics Invention System (RCX), the first Lego Mindstorms product. Using this platform, Java developers has built robots using a Custom firmware and an Integrated Java library, <a href="http://www.lejos.org/rcx.php" target="_blank">LeJOS</a>.
+In 1998, LEGO released Robotics Invention System (RCX), the first Lego Mindstorms product. Using this platform, Java developers has developed software for robots using a Custom firmware and an Integrated Java library, <a href="http://www.lejos.org/rcx.php" target="_blank">LeJOS</a>.
                     </p>
                 </section>
                 <section data-background="./Media/Images/nxt1.jpg">
                     <h2>Why</h2>
                     <p>
 Later in 2006, LEGO released the second generation, Lego Mindstorms NXT. This product included a limited hardware and Java developers continued using the same approach than in previous generation.
+                    </p>
+                </section>
+                <section data-background="./Media/Images/ev34.jpg">
+                    <h2>Why</h2>
+                    <p>
+Finally in 2013, LEGO released the third generation, Lego Mindstorms EV3. This product allow installing a full featured Linux distro in order to install any Java JDK.
                     </p>
                 </section>
                 <section data-background="#000000" data-background-video="./Media/Video/1982_Tron_Original_Movie_Trailer2.mp4, ./Media/Video/1982_Tron_Original_Movie_Trailer2.webm">
@@ -222,6 +248,10 @@ You are welcome to participate in this Open Source project. Fork this repo to en
             progress: true,
             history: true,
             center: true,
+            // Enable slide navigation via mouse wheel
+            mouseWheel: true,
+            // Hides the address bar on mobile devices
+            hideAddressBar: true,
 
             transition: 'concave', // none/fade/slide/convex/concave/zoom
 
@@ -229,16 +259,6 @@ You are welcome to participate in this Open Source project. Fork this repo to en
             dependencies: [
                 // Syntax highlight for <code> elements 
                 { src: 'Scripts/plugins/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-
-/*
-                // Jump plugin
-                { src: 'Scripts/plugin/jump/jump.js', async: true }
-
-                { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-                { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                { src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } }
-*/
             ]
 
         });

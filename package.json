@@ -2,10 +2,6 @@
   "name": "ev3dev-lang-java",
   "version": "0.2.0",
   "description": "*EV3Dev-lang-Java* is a Java library designed to develop Software for Robots on [EV3Dev](http://www.ev3dev.org/) with [OpenCV](http://opencv.org/), [LeJOS](http://www.lejos.org/), [eSpeak](http://espeak.sourceforge.net/) and other Robotics libraries.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jabrena/ev3dev-lang-java.git"
@@ -15,8 +11,22 @@
   "bugs": {
     "url": "https://github.com/jabrena/ev3dev-lang-java/issues"
   },
-  "homepage": "https://github.com/jabrena/ev3dev-lang-java#readme",
+  "homepage": "http://jabrena.github.io/ev3dev-lang-java/",
+  
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
   "dependencies": {
     "reveal.js": "^3.2.0"
+  },
+
+  "devDependencies": {
+    "grunt": "0.4.5",
+    "grunt-cli": "0.1.13",
+    "grunt-connect": "0.2.0",
+    "grunt-jsdoc": "1.1.0",
+    "grunt-open": "0.2.3"
   }
 }

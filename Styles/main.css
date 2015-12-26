@@ -3,7 +3,7 @@ h1, h2, h3{
 }
 
 h1, h2, h3 {
-    color: #6699CC !important;
+    color: #000000 !important;
     text-shadow: 4px 4px 30px rgba(170,170,170, 1) !important;
 }
 
@@ -11,18 +11,18 @@ h1{
     font-size: 100px !important;
 }
 p {
-    color: #6699CC;
+    color: #000000;
     text-shadow: 4px 4px 30px rgba(170,170,170, 1);
 }
 
 .reveal a {
-    color: #6699CC;
+    color: #000000;
     text-shadow: 4px 4px 30px rgba(170,170,170, 1);  
     text-decoration: underline;          
 }
 
 .reveal a:hover { 
-    color: #6699CC;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -32,4 +32,9 @@ p {
     background: rgba(255, 255, 255, 0.0);
     border: none;
     box-shadow: none;
+}
+
+ul li{
+    color: #000000;
+    text-shadow: 4px 4px 30px rgba(170,170,170, 1);
 }

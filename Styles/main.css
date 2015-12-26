@@ -4,7 +4,7 @@ h1, h2, h3{
 
 h1, h2, h3 {
     color: #000000 !important;
-    text-shadow: 4px 4px 30px rgba(170,170,170, 1) !important;
+    text-shadow: 4px 4px 30px rgba(221,221,221, 1) !important;
 }
 
 h1{
@@ -12,12 +12,12 @@ h1{
 }
 p {
     color: #000000;
-    text-shadow: 4px 4px 30px rgba(170,170,170, 1);
+    text-shadow: 4px 4px 30px rgba(221,221,221, 1);
 }
 
 .reveal a {
     color: #000000;
-    text-shadow: 4px 4px 30px rgba(170,170,170, 1);  
+    text-shadow: 4px 4px 30px rgba(221,221,221, 1);  
     text-decoration: underline;          
 }
 
@@ -36,5 +36,5 @@ p {
 
 ul li{
     color: #000000;
-    text-shadow: 4px 4px 30px rgba(170,170,170, 1);
+    text-shadow: 4px 4px 30px rgba(221,221,221, 1);
 }

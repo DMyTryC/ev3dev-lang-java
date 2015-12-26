@@ -1,0 +1,35 @@
+h1, h2, h3{
+    text-transform: none !important;
+}
+
+h1, h2, h3 {
+    color: #6699CC !important;
+    text-shadow: 4px 4px 30px rgba(170,170,170, 1) !important;
+}
+
+h1{
+    font-size: 100px !important;
+}
+p {
+    color: #6699CC;
+    text-shadow: 4px 4px 30px rgba(170,170,170, 1);
+}
+
+.reveal a {
+    color: #6699CC;
+    text-shadow: 4px 4px 30px rgba(170,170,170, 1);  
+    text-decoration: underline;          
+}
+
+.reveal a:hover { 
+    color: #6699CC;
+    text-decoration: none;
+}
+
+
+.reveal section img {
+    margin: none; 
+    background: rgba(255, 255, 255, 0.0);
+    border: none;
+    box-shadow: none;
+}

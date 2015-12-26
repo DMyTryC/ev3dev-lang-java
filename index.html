@@ -14,42 +14,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui"> 
 
     <link rel="stylesheet" href="Styles/reveal.css">
-    <link rel="stylesheet" href="Styles/theme/solarized.css" id="theme">  
-
-    <style>
-        h1, h2, h3{
-            text-transform: none !important;
-        }
-        
-        h1.orange, h2.orange, h3.orange {
-            color: orange;
-            text-shadow: 1px 1px #000000;
-        }
-        p.orange {
-            color: orange;
-            text-shadow: 1px 1px #000000;
-        }
-
-        .reveal a {
-            color: orange;
-            text-shadow: 1px 1px #000000;            
-        }
-        
-
-        .reveal section img {
-            margin: none; 
-            background: rgba(255, 255, 255, 0.0);
-            border: none;
-            box-shadow: none;
-        }
-
-#contentColumn1 {
-    float:left;
-}
-#contentColumn2 {
-    float:left;
-}
-    </style>
+    <link rel="stylesheet" href="Styles/theme/serif.css" id="theme">  
+    <link rel="stylesheet" href="Styles/main.css">
 
     <!-- Code syntax highlighting -->
     <link rel="stylesheet" href="Styles/zenburn.css">
@@ -70,45 +36,87 @@
 <body>
     <div class="reveal">
         <div class="slides">
-            <section data-background="./Media/Images/tachikoma5.png">
-                <h1 class="orange">EV3Dev-lang-Java</h1>
-                <h3 class="orange">EV3Dev-lang-Java is a Java library designed to interact with hardware managed by EV3Dev.</h3>
+            <section data-background="./Media/Images/tachikoma6.png">
+                <h1>EV3Dev-lang-Java</h1>
+                <h3>A Java library designed to interact with hardware managed by EV3Dev.</h3>
                 <p>
 <a href="https://github.com/jabrena/ev3dev-lang-java" target="_blank">Github project</a>&nbsp;|&nbsp;
 <a href="https://github.com/jabrena/ev3dev-lang-java/issues" target="_blank">Create a issue</a>&nbsp;|&nbsp;
 <a href="./docs/api/" target="_blank">Javadoc</a>
                 </p>
+                <!--
+                <p>
+                    <img src="./Media/Images/java.png" width="15%"/>
+                    <img src="./Media/Images/ev3devLogo.png" />
+                </p>
+                -->
             </section>
             <section>
                 <section data-background="./Media/Images/tachikoma5.png">
                     <h2>Why use this library?</h2>
                     <p>
-Currently, it is possible to install a full-featured Linux OS on your EV3 Brick, <a href="http://www.ev3dev.org/" target="_blank">EV3Dev</a>. Using the package manager, you have access to install Java in the same way that you do the same thing in your computer.
+<a href="http://www.ev3dev.org/" target="_blank">EV3Dev</a> is a Debian Linux-based operating system that runs on several LEGO MINDSTORMS compatible platforms.
+                    </p>
+                    <p>
+Using the package manager, you have access to install a Java JDK and start developing with this library.
                     </p>
                     <pre><code data-trim>
                     sudo apt-get install default-jdk
                     </code></pre>
                 </section>
-                <section data-background="./Media/Images/rcx5.jpg">
+                <section data-background="./Media/Images/tachikoma5.png">
                     <h2>Why use this library?</h2>
                     <p>
-Using previous products as Robotics Invention System (RCX) or Lego Mindstorms NXT, Java developers has developed software for robots using custom firmwares with integrated libraries from <a href="http://www.lejos.org/" target="_blank">LeJOS</a>.
+<a href="https://github.com/jabrena/ev3dev-lang-java" target="_blank">EV3-lang-java</a> is a library to manage Sensors and Actuators only in a minimalistic way using <a href="http://www.lejos.org/" target="_blank">LeJOS</a> concepts.
                     </p>
                 </section>
-                <section data-background="./Media/Images/nxt1.jpg">
+               <section data-background="./Media/Images/tachikoma5.png">
                     <h2>Why use this library?</h2>
                     <p>
-But now, you can experiment with several technologies, libraries and programming languages together. Be creative.
+The library offers support for the following hardware:
+                    </p>
+                    <ul>
+                        <li><a href="https://education.lego.com/es-es/lego-education-product-database/mindstorms-ev3/45544-lego-mindstorms-education-ev3-core-set" target="_blank">45544 LEGO MINDSTORMS Education EV3 Core Set</a></li>
+                    </ul>
+                    <p>
+                        <img src="./Media/Images/ev3_45544.png" width="80%"/>
                     </p>
                 </section>
-                <section data-background="#000000" data-background-video="./Media/Video/1982_Tron_Original_Movie_Trailer2.mp4, ./Media/Video/1982_Tron_Original_Movie_Trailer2.webm">
-                </section>
-               <section data-background="#ffffff">
+               <section data-background="./Media/Images/tachikoma5.png">
                     <h2>Why use this library?</h2>
                     <p>
-Be Creative with Java.
+The library offers support for the following hardware:
                     </p>
-                    <img src="./Media/Images/java.png" width="30%"/>
+                    <ul>
+                        <li><a href="http://www.lego.com/en-us/mindstorms/products/31313-mindstorms-ev3" target="_blank">31313 LEGO MINDSTORMS EV3</a></li>
+                    </ul>
+                    <p>
+                        <img src="./Media/Images/31313.png" width="50%"/>
+                    </p>
+                </section>
+               <section data-background="./Media/Images/tachikoma5.png">
+                    <h2>Why use this library?</h2>
+                    <p>
+The library offers support for the following hardware: (COMING SOON)
+                    </p>
+                    <ul>
+                        <li><a href="http://www.dexterindustries.com/brickpi/" target="_blank">Dexter Industries Brick Pi+</a></li>
+                    </ul>
+                    <p>
+                        <img src="./Media/Images/BrickPi.png" width="40%"/>
+                    </p>
+                </section>
+               <section data-background="./Media/Images/tachikoma5.png">
+                    <h2>Why use this library?</h2>
+                    <p>
+The library offers support for the following hardware: (COMING SOON)
+                    </p>
+                    <ul>
+                        <li><a href="http://www.mindsensors.com/teaching-stem-with-robotics/13-pistorms-base-kit">Mindsensors PiStorms Base Kit</a></li>
+                    </ul>
+                    <p>
+                        <img src="./Media/Images/PiStorms.jpg" width="40%"/>
+                    </p>
                 </section>
             </section> 
        
@@ -274,7 +282,7 @@ You are welcome to participate in this Open Source project. Fork this repo to en
             // Hides the address bar on mobile devices
             hideAddressBar: true,
 
-            transition: 'concave', // none/fade/slide/convex/concave/zoom
+            transition: 'convex', // none/fade/slide/convex/concave/zoom
 
             // Optional reveal.js plugins
             dependencies: [

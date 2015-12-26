@@ -113,18 +113,63 @@ This library put the focus in the interaction with hardware so it doesn't cover 
                 <section data-background="./Media/Images/Base1_5.png">
                     <h2 class="black">Getting Started</h2>
                     <p class="black">
-Learn to install and use the environment to create your first Robot managed by Java on EV3Dev.
+Learn to use this library step by step.
                     </p>
                 </section>
-                <section data-background="./Media/Images/gistUser1.png" data-background-size="300px" data-background-repeat="repeat">
-                    <h2 class="black">1. Install EV3Dev (+- 1h.)</h2>
-                    <p class="black">
-Install the OS to execute your software for robots. <a href="http://www.ev3dev.org/docs/getting-started/" target="_blank">Read carefully this guide to install EV3Dev</a>.
+                <section data-background="./Media/Images/Base1_5.png">
+                    <h2>1. Install EV3Dev (1h.)</h2>
+                    <p>
+<a href="http://www.ev3dev.org/docs/getting-started/" target="_blank">Install the operating system</a> to use this library and later, upgrade the library.
                     </p>
-                    <img src="./Media/Images/ev3dev1.png"/>
+                    <p>
+                        <img src="./Media/Images/microsd.png" width="23%"/>
+                        <img src="./Media/Images/ev3brick.png" width="34%"/>
+                        <img src="./Media/Images/ev3dev1.png" width="30%"/>
+                    </p>
+                    <pre><code data-trim contenteditable>
+apt-get update
+apt-get upgrade
+apt-get dist-upgrade   
+                    </code></pre>  
                 </section>
-                <section>
-                    <h2>1. Add the dependency</h2>
+                <section data-background="./Media/Images/Base1_5.png">
+                    <h2>2. Install Java JDK (1h.)</h2>
+                    <p>
+Install a Java JDK and some commons Java build tools using the <a href="https://wiki.debian.org/Apt" target="_blank">package manager Apt</a>.
+                    </p>
+                    <pre><code data-trim contenteditable>
+sudo apt-get install default-jdk
+sudo apt-get install maven
+sudo apt-get install ant 
+                    </code></pre>  
+                </section>
+                <section data-background="./Media/Images/Base1_5.png">
+                    <h2>3. Create a Hello World Maven project (15m.)</h2>
+                    <p>
+Create a folder with the name: helloworld and create a new Maven project.
+                    </p>
+                    <pre><code data-trim contenteditable>
+mkdir helloworld
+cd helloworld
+mvn archetype:generate 
+-DgroupId=ev3dev.java.examples 
+-DartifactId=helloworld 
+-DarchetypeArtifactId=maven-archetype-quickstart 
+-DinteractiveMode=false
+                    </code></pre>  
+                </section>
+                <section data-background="./Media/Images/Base1_5.png">
+                    <h2>4. Import in Eclipse IDE your Maven Project (5m.)</h2>
+                    <p>
+Import in Eclipse your new Java project.
+                    </p>
+                    <p>
+                        <img src="./Media/Images/eclipse_logo.png" width="23%"/>
+                        <img src="./Media/Images/HelloWorld.png" width="50%"/>
+                    </p>
+                </section>
+                <section data-background="./Media/Images/Base1_5.png">
+                    <h2>5. Add the dependency (5m.)</h2>
                     <p>
 Update your pom.xml file to add the add the repository:
                     </p>
@@ -145,10 +190,13 @@ and the artifact:
 </dependency>    
                     </code></pre>
                 </section>
-                <section>
-                    <h2>2. Code an example</h2>
+                <section data-background="./Media/Images/Base1_5.png">
+                    <h2>6. Code an example (5m.)</h2>
+                    <p>
+Create a new Java Class to test the library.
+                    </p>  
                     <pre><code data-trim contenteditable>
-package ev3dev.examples.demo;
+package ev3dev.java.examples;
 
 import ev3dev.hardware.Battery;
 import ev3dev.hardware.port.MotorPort;
@@ -197,8 +245,8 @@ public class Test {
 }
                     </code></pre>
                 </section>
-                <section>
-                    <h2>3. Build & Run</h2>
+                <section data-background="./Media/Images/Base1_5.png">
+                    <h2>7. Build & deploy (15m.)</h2>
                     <p>
 Create the artifact (*.jar):
                     </p>
@@ -206,14 +254,32 @@ Create the artifact (*.jar):
 mvn package
                     </code></pre>
                     <p>
-To run later in your Brick:
+and deploy your .jar in your brick
+                    </p>
+                    <pre><code data-trim contenteditable>
+scp ev3-lang-java-0.2-SNAPSHOT.jar your_username@remotehost:/home
+scp helloworld-1.0-SNAPSHOT.jar your_username@remotehost:/home
+                    </code></pre>
+                </section>                              
+                <section data-background="./Media/Images/Base1_5.png">
+                    <h2>8. Run your example (2m.)</h2>
+                    <p>
+Connect with your brick:
+                    </p>
+                    <pre><code data-trim contenteditable>
+ssh your_username@remotehost
+your_password
+cd /home
+                    </code></pre>
+                    <p>
+and finally, run your example:
                     </p>
                     <pre><code data-trim contenteditable>
 java -cp 
-    MyFirstRobot-1.0-SNAPSHOT.jar:ev3-lang-java-0.2-SNAPSHOT.jar 
-    ev3dev.examples.demo.Test
+    helloworld-1.0-SNAPSHOT.jar:ev3-lang-java-0.2-SNAPSHOT.jar 
+    ev3dev.java.examples.Test
                     </code></pre>
-                </section>                                
+                </section> 
             </section>
             <section data-background="./Media/Images/Base1_5.png">
                 <h2>Contribute</h2>
@@ -232,6 +298,8 @@ You are welcome to participate in this Open Source project. Fork this repo to en
                     <li><a href="http://www.ev3dev.org/" target="_blank">EV3Dev</a></li>
                     <li><a href="http://www.lejos.org/" target="_blank">LeJOS</a></li>
                     <li><a href="http://opencv.org/" target="_blank">OpenCV</a></li>
+                    <li><a href="https://eclipse.org/" target="_blank">Eclipse</a></li>
+                    <li><a href="https://maven.apache.org/" target="_blank">Maven</a></li>
                 </ul>
             </section>
             <section>

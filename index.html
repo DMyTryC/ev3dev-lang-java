@@ -38,7 +38,7 @@
         <div class="slides">
             <section data-background="./Media/Images/Base1_5.png">
                 <h1>EV3Dev-lang-Java</h1>
-                <h3>A Java library designed to interact with hardware managed by EV3Dev with LeJOS Concepts.</h3>
+                <h3>A Java library designed to interact with the hardware managed by EV3Dev with LeJOS Concepts.</h3>
                 <p>
 <a href="https://github.com/jabrena/ev3dev-lang-java" target="_blank">Github project</a>&nbsp;|&nbsp;
 <a href="https://github.com/jabrena/ev3dev-lang-java/issues" target="_blank">Create a issue</a>&nbsp;|&nbsp;
@@ -55,7 +55,7 @@
                 <section data-background="./Media/Images/Base1_5.png">
                     <h2>Why use this library?</h2>
                     <p>
-This library put the focus in the interaction with hardware so it doesn't cover areas as: <a href="https://en.wikipedia.org/wiki/Mobile_robot_navigation" target="_blank">Mobile Robot Navigation</a>, <a href="https://en.wikipedia.org/wiki/Computer_vision" target="_blank">Computer Vision</a>, <a href="https://en.wikipedia.org/wiki/Behavior-based_robotics" target="_blank">Behaviour based robotics</a>, etc...
+This library put the focus in the interaction with the hardware so it doesn't cover areas as: <a href="https://en.wikipedia.org/wiki/Mobile_robot_navigation" target="_blank">Mobile Robot Navigation</a>, <a href="https://en.wikipedia.org/wiki/Computer_vision" target="_blank">Computer Vision</a>, <a href="https://en.wikipedia.org/wiki/Behavior-based_robotics" target="_blank">Behaviour based robotics</a>, etc...
                     </p>
                 </section>
             </section>
@@ -136,7 +136,7 @@ apt-get dist-upgrade
                 <section data-background="./Media/Images/Base1_5.png">
                     <h2>2. Install Java JDK (1h.)</h2>
                     <p>
-Install a Java JDK and some commons Java build tools using the <a href="https://wiki.debian.org/Apt" target="_blank">package manager Apt</a>.
+Install a Java JDK, OpenCV for Java, and some commons Java build tools using the <a href="https://wiki.debian.org/Apt" target="_blank">package manager Apt</a>.
                     </p>
                     <pre><code data-trim contenteditable>
 sudo apt-get install default-jdk
@@ -151,13 +151,13 @@ sudo apt-get install ant
 Create a folder with the name: helloworld and create a new Maven project.
                     </p>
                     <pre><code data-trim contenteditable>
-mkdir helloworld
-cd helloworld
 mvn archetype:generate 
 -DgroupId=ev3dev.java.examples 
 -DartifactId=helloworld 
 -DarchetypeArtifactId=maven-archetype-quickstart 
 -DinteractiveMode=false
+cd helloworld
+mvn eclipse:eclipse
                     </code></pre>  
                 </section>
                 <section data-background="./Media/Images/Base1_5.png">
@@ -173,7 +173,7 @@ Import in Eclipse your new Java project.
                 <section data-background="./Media/Images/Base1_5.png">
                     <h2>5. Add the dependency (5m.)</h2>
                     <p>
-Update your pom.xml file to add the add the repository:
+Update your pom.xml file the add the repository:
                     </p>
                     <pre><code data-trim contenteditable>
 <repository>

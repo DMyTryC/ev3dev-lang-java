@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// lejos.robotics.filter.SampleThread.Runner
-	c3135 [label=<<table title="lejos.robotics.filter.SampleThread.Runner" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SampleThread.Runner.html">
+	c5113 [label=<<table title="lejos.robotics.filter.SampleThread.Runner" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SampleThread.Runner.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Runner </td></tr>
 		</table></td></tr>
@@ -23,9 +23,9 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./SampleThread.Runner.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//lejos.robotics.filter.SampleThread.Runner extends java.lang.Thread
-	c3143:p -> c3135:p [dir=back,arrowtail=empty];
+	c5121:p -> c5113:p [dir=back,arrowtail=empty];
 	// java.lang.Thread
-	c3143 [label=<<table title="java.lang.Thread" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/Thread.html">
+	c5121 [label=<<table title="java.lang.Thread" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/Thread.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Thread </td></tr>
 		</table></td></tr>

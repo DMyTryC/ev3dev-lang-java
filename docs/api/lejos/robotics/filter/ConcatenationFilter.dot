@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// lejos.robotics.SampleProvider
-	c1137 [label=<<table title="lejos.robotics.SampleProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../SampleProvider.html">
+	c1730 [label=<<table title="lejos.robotics.SampleProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../SampleProvider.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> SampleProvider </td></tr>
@@ -24,7 +24,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="../SampleProvider.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// lejos.robotics.filter.ConcatenationFilter
-	c1143 [label=<<table title="lejos.robotics.filter.ConcatenationFilter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConcatenationFilter.html">
+	c1735 [label=<<table title="lejos.robotics.filter.ConcatenationFilter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConcatenationFilter.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ConcatenationFilter </td></tr>
 		</table></td></tr>
@@ -39,6 +39,6 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./ConcatenationFilter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//lejos.robotics.filter.ConcatenationFilter implements lejos.robotics.SampleProvider
-	c1137:p -> c1143:p [dir=back,arrowtail=empty,style=dashed];
+	c1730:p -> c1735:p [dir=back,arrowtail=empty,style=dashed];
 }
 

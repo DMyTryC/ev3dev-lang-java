@@ -10,16 +10,34 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// ev3dev.hardware.motor.BaseRegulatedMotor
-	c2566 [label=<<table title="ev3dev.hardware.motor.BaseRegulatedMotor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BaseRegulatedMotor.html">
+	c4396 [label=<<table title="ev3dev.hardware.motor.BaseRegulatedMotor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BaseRegulatedMotor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> BaseRegulatedMotor </font></td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> # MAX_SPEED_AT_9V : int </td></tr>
-<tr><td align="left" balign="left"> # NO_LIMIT : int </td></tr>
 <tr><td align="left" balign="left"> # speed : float </td></tr>
 <tr><td align="left" balign="left"> # acceleration : int </td></tr>
 <tr><td align="left" balign="left"> - SYSTEM_CLASS_NAME : String </td></tr>
+<tr><td align="left" balign="left"> - SYSTEM_PORT_CLASS_NAME : String </td></tr>
+<tr><td align="left" balign="left"> - MODE : String </td></tr>
+<tr><td align="left" balign="left"> - SPEED_REGULATION : String </td></tr>
+<tr><td align="left" balign="left"> - SPEED_REGULATION_ON : String </td></tr>
+<tr><td align="left" balign="left"> - SPEED_REGULATION_OFF : String </td></tr>
+<tr><td align="left" balign="left"> - POSITION : String </td></tr>
+<tr><td align="left" balign="left"> - SPEED : String </td></tr>
+<tr><td align="left" balign="left"> - DUTY_CYCLE : String </td></tr>
+<tr><td align="left" balign="left"> - COMMAND : String </td></tr>
+<tr><td align="left" balign="left"> - RUN_FOREVER : String </td></tr>
+<tr><td align="left" balign="left"> - BRAKE : String </td></tr>
+<tr><td align="left" balign="left"> - STOP : String </td></tr>
+<tr><td align="left" balign="left"> - RESET : String </td></tr>
+<tr><td align="left" balign="left"> - RUN_TO_REL_POS : String </td></tr>
+<tr><td align="left" balign="left"> - RUN_TO_ABS_POS : String </td></tr>
+<tr><td align="left" balign="left"> - STATE : String </td></tr>
+<tr><td align="left" balign="left"> - STATE_RUNNING : String </td></tr>
+<tr><td align="left" balign="left"> - STATE_STALLED : String </td></tr>
+<tr><td align="left" balign="left"> - local_speed : int </td></tr>
+<tr><td align="left" balign="left"> - regulationFlag : boolean </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left"> + BaseRegulatedMotor(motorPort : String, moveP : float, moveI : float, moveD : float, holdP : float, holdI : float, holdD : float, offset : int, maxSpeed : int) </td></tr>
@@ -30,32 +48,22 @@ digraph G {
 <tr><td align="left" balign="left"> + forward() </td></tr>
 <tr><td align="left" balign="left"> + backward() </td></tr>
 <tr><td align="left" balign="left"> + flt() </td></tr>
-<tr><td align="left" balign="left"> + flt(immediateReturn : boolean) </td></tr>
 <tr><td align="left" balign="left"> + stop() </td></tr>
-<tr><td align="left" balign="left"> + stop(immediateReturn : boolean) </td></tr>
 <tr><td align="left" balign="left"> + isMoving() : boolean </td></tr>
-<tr><td align="left" balign="left"> + waitComplete() </td></tr>
-<tr><td align="left" balign="left"> + rotateTo(limitAngle : int, immediateReturn : boolean) </td></tr>
 <tr><td align="left" balign="left"> + setSpeed(speed : int) </td></tr>
-<tr><td align="left" balign="left"> + setSpeed(speed : float) </td></tr>
-<tr><td align="left" balign="left"> + setAcceleration(acceleration : int) </td></tr>
-<tr><td align="left" balign="left"> + getAcceleration() : int </td></tr>
-<tr><td align="left" balign="left"> + getLimitAngle() : int </td></tr>
 <tr><td align="left" balign="left"> + resetTachoCount() </td></tr>
-<tr><td align="left" balign="left"> + addListener(listener : RegulatedMotorListener) </td></tr>
-<tr><td align="left" balign="left"> + removeListener() : RegulatedMotorListener </td></tr>
+<tr><td align="left" balign="left"> - isRunning() : boolean </td></tr>
 <tr><td align="left" balign="left"> + rotate(angle : int, immediateReturn : boolean) </td></tr>
 <tr><td align="left" balign="left"> + rotate(angle : int) </td></tr>
+<tr><td align="left" balign="left"> + rotateTo(limitAngle : int, immediateReturn : boolean) </td></tr>
 <tr><td align="left" balign="left"> + rotateTo(limitAngle : int) </td></tr>
 <tr><td align="left" balign="left"> + getSpeed() : int </td></tr>
 <tr><td align="left" balign="left"> + isStalled() : boolean </td></tr>
-<tr><td align="left" balign="left"> + setStallThreshold(error : int, time : int) </td></tr>
 <tr><td align="left" balign="left"> + getRotationSpeed() : int </td></tr>
-<tr><td align="left" balign="left"> + getMaxSpeed() : float </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BaseRegulatedMotor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// ev3dev.hardware.motor.NXTRegulatedMotor
-	c2570 [label=<<table title="ev3dev.hardware.motor.NXTRegulatedMotor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./NXTRegulatedMotor.html">
+	c4400 [label=<<table title="ev3dev.hardware.motor.NXTRegulatedMotor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./NXTRegulatedMotor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> NXTRegulatedMotor </td></tr>
 		</table></td></tr>
@@ -74,6 +82,6 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./NXTRegulatedMotor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//ev3dev.hardware.motor.NXTRegulatedMotor extends ev3dev.hardware.motor.BaseRegulatedMotor
-	c2566:p -> c2570:p [dir=back,arrowtail=empty];
+	c4396:p -> c4400:p [dir=back,arrowtail=empty];
 }
 

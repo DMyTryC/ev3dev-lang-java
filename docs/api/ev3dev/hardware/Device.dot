@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// ev3dev.hardware.Device
-	c1283 [label=<<table title="ev3dev.hardware.Device" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Device.html">
+	c1906 [label=<<table title="ev3dev.hardware.Device" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Device.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Device </td></tr>
 		</table></td></tr>
@@ -23,29 +23,30 @@ digraph G {
 <tr><td align="left" balign="left"> + close() </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Device.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// ev3dev.hardware.EV3DevDevice
-	c1285 [label=<<table title="ev3dev.hardware.EV3DevDevice" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./EV3DevDevice.html">
+	// ev3dev.hardware.EV3DevSysfs
+	c1909 [label=<<table title="ev3dev.hardware.EV3DevSysfs" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./EV3DevSysfs.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> EV3DevDevice </td></tr>
+<tr><td align="center" balign="center"> EV3DevSysfs </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> - DEVICE_ROOT_PATH : String </td></tr>
-<tr><td align="left" balign="left"> - connected : boolean </td></tr>
-<tr><td align="left" balign="left"> - pathDevice : File </td></tr>
+<tr><td align="left" balign="left">  </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + EV3DevDevice(type : String, portName : String) </td></tr>
-<tr><td align="left" balign="left"> + getAttribute(attribute : String) : String </td></tr>
-<tr><td align="left" balign="left"> + setAttribute(attribute : String, value : String) </td></tr>
-<tr><td align="left" balign="left"> + getPathDevice() : File </td></tr>
+<tr><td align="left" balign="left"> + EV3DevSysfs() </td></tr>
+<tr><td align="left" balign="left"> + writeString(filePath : String, value : String) : boolean </td></tr>
+<tr><td align="left" balign="left"> + writeInteger(filePath : String, value : int) : boolean </td></tr>
+<tr><td align="left" balign="left"> + readString(filePath : String) : String </td></tr>
+<tr><td align="left" balign="left"> + readInteger(filePath : String) : int </td></tr>
+<tr><td align="left" balign="left"> + readFloat(filePath : String) : float </td></tr>
+<tr><td align="left" balign="left"> + getElements(path : String) : ArrayList&lt;File&gt; </td></tr>
 		</table></td></tr>
-		</table>>, URL="./EV3DevDevice.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./EV3DevSysfs.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//ev3dev.hardware.Device implements java.io.Closeable
-	c1340:p -> c1283:p [dir=back,arrowtail=empty,style=dashed];
-	//ev3dev.hardware.EV3DevDevice extends ev3dev.hardware.Device
-	c1283:p -> c1285:p [dir=back,arrowtail=empty];
+	c1977:p -> c1906:p [dir=back,arrowtail=empty,style=dashed];
+	//ev3dev.hardware.EV3DevSysfs extends ev3dev.hardware.Device
+	c1906:p -> c1909:p [dir=back,arrowtail=empty];
 	// java.io.Closeable
-	c1340 [label=<<table title="java.io.Closeable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Closeable.html">
+	c1977 [label=<<table title="java.io.Closeable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Closeable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Closeable </td></tr>

@@ -1,14 +1,10 @@
 <map id="G" name="G">
-<area shape="rect" id="node1_0" href="./SensorMode.html" title="ev3dev.hardware.sensor.SensorMode" alt="" coords="403,177,541,266"/>
-<area shape="rect" id="node1" href="./SensorMode.html" title="&lt;TABLE&gt;" alt="" coords="392,171,552,271"/>
-<area shape="rect" id="node2_1" href="./SensorModes.html" title="ev3dev.hardware.sensor.SensorModes" alt="" coords="326,326,618,511"/>
-<area shape="rect" id="node2" href="./SensorModes.html" title="&lt;TABLE&gt;" alt="" coords="315,321,629,517"/>
-<area shape="rect" id="node3_2" href="./ev3/EV3GyroSensor.AngleMode.html" title="ev3dev.hardware.sensor.ev3.EV3GyroSensor.AngleMode" alt="" coords="15,342,281,495"/>
-<area shape="rect" id="node3" href="./ev3/EV3GyroSensor.AngleMode.html" title="&lt;TABLE&gt;" alt="" coords="5,337,291,501"/>
-<area shape="rect" id="node4_3" href="./ev3/EV3IRSensor.DistanceMode.html" title="ev3dev.hardware.sensor.ev3.EV3IRSensor.DistanceMode" alt="" coords="663,350,929,487"/>
-<area shape="rect" id="node4" href="./ev3/EV3IRSensor.DistanceMode.html" title="&lt;TABLE&gt;" alt="" coords="653,345,939,493"/>
-<area shape="rect" id="node5_4" href="./ev3/EV3TouchSensor.TouchMode.html" title="ev3dev.hardware.sensor.ev3.EV3TouchSensor.TouchMode" alt="" coords="974,358,1239,479"/>
-<area shape="rect" id="node5" href="./ev3/EV3TouchSensor.TouchMode.html" title="&lt;TABLE&gt;" alt="" coords="963,353,1250,485"/>
-<area shape="rect" id="node6_5" href="../../../lejos/robotics/SampleProvider.html" title="lejos.robotics.SampleProvider" alt="" coords="258,11,523,117"/>
-<area shape="rect" id="node6" href="../../../lejos/robotics/SampleProvider.html" title="&lt;TABLE&gt;" alt="" coords="247,6,534,122"/>
+<area shape="rect" id="node1_0" href="./SensorMode.html" title="ev3dev.hardware.sensor.SensorMode" alt="" coords="248,177,387,266"/>
+<area shape="rect" id="node1" href="./SensorMode.html" title="&lt;TABLE&gt;" alt="" coords="237,171,397,271"/>
+<area shape="rect" id="node2_1" href="./SensorModes.html" title="ev3dev.hardware.sensor.SensorModes" alt="" coords="15,326,307,511"/>
+<area shape="rect" id="node2" href="./SensorModes.html" title="&lt;TABLE&gt;" alt="" coords="5,321,318,517"/>
+<area shape="rect" id="node3_2" href="./ev3/EV3DevSensorMode.html" title="ev3dev.hardware.sensor.ev3.EV3DevSensorMode" alt="" coords="353,366,517,471"/>
+<area shape="rect" id="node3" href="./ev3/EV3DevSensorMode.html" title="&lt;TABLE&gt;" alt="" coords="342,361,527,477"/>
+<area shape="rect" id="node4_3" href="../../../lejos/robotics/SampleProvider.html" title="lejos.robotics.SampleProvider" alt="" coords="243,11,509,117"/>
+<area shape="rect" id="node4" href="../../../lejos/robotics/SampleProvider.html" title="&lt;TABLE&gt;" alt="" coords="233,6,519,122"/>
 </map>

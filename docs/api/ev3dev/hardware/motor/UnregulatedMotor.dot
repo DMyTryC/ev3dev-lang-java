@@ -10,20 +10,28 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// ev3dev.hardware.motor.BasicMotor
-	c3789 [label=<<table title="ev3dev.hardware.motor.BasicMotor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BasicMotor.html">
+	c6080 [label=<<table title="ev3dev.hardware.motor.BasicMotor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BasicMotor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> BasicMotor </font></td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> # INVALID_MODE : int </td></tr>
-<tr><td align="left" balign="left"> # mode : int </td></tr>
-<tr><td align="left" balign="left"> # power : int </td></tr>
+<tr><td align="left" balign="left"> - SYSTEM_CLASS_NAME : String </td></tr>
+<tr><td align="left" balign="left"> - SYSTEM_PORT_CLASS_NAME : String </td></tr>
+<tr><td align="left" balign="left"> - MODE : String </td></tr>
+<tr><td align="left" balign="left"> - DUTY_CYCLE : String </td></tr>
+<tr><td align="left" balign="left"> - POWER : String </td></tr>
+<tr><td align="left" balign="left"> - COMMAND : String </td></tr>
+<tr><td align="left" balign="left"> - RUN_FOREVER : String </td></tr>
+<tr><td align="left" balign="left"> - BRAKE : String </td></tr>
+<tr><td align="left" balign="left"> - STOP : String </td></tr>
+<tr><td align="left" balign="left"> - STATE : String </td></tr>
+<tr><td align="left" balign="left"> - STATE_RUNNING : String </td></tr>
+<tr><td align="left" balign="left"> # local_power : int </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + BasicMotor(type : String, portName : String) </td></tr>
+<tr><td align="left" balign="left"> + BasicMotor(portName : String) </td></tr>
 <tr><td align="left" balign="left"> + setPower(power : int) </td></tr>
 <tr><td align="left" balign="left"> + getPower() : int </td></tr>
-<tr><td align="left" balign="left"> # updateState(newMode : int) </td></tr>
 <tr><td align="left" balign="left"> + forward() </td></tr>
 <tr><td align="left" balign="left"> + backward() </td></tr>
 <tr><td align="left" balign="left"> + isMoving() : boolean </td></tr>
@@ -32,7 +40,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./BasicMotor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// ev3dev.hardware.motor.UnregulatedMotor
-	c3793 [label=<<table title="ev3dev.hardware.motor.UnregulatedMotor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UnregulatedMotor.html">
+	c6084 [label=<<table title="ev3dev.hardware.motor.UnregulatedMotor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UnregulatedMotor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UnregulatedMotor </td></tr>
 		</table></td></tr>
@@ -40,10 +48,10 @@ digraph G {
 <tr><td align="left" balign="left">  </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + UnregulatedMotor(type : String, portName : String) </td></tr>
+<tr><td align="left" balign="left"> + UnregulatedMotor(portName : String) </td></tr>
 		</table></td></tr>
 		</table>>, URL="./UnregulatedMotor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//ev3dev.hardware.motor.UnregulatedMotor extends ev3dev.hardware.motor.BasicMotor
-	c3789:p -> c3793:p [dir=back,arrowtail=empty];
+	c6080:p -> c6084:p [dir=back,arrowtail=empty];
 }
 

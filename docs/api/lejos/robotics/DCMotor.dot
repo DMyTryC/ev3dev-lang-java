@@ -10,20 +10,28 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// ev3dev.hardware.motor.BasicMotor
-	c1173 [label=<<table title="ev3dev.hardware.motor.BasicMotor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ev3dev/hardware/motor/BasicMotor.html">
+	c1767 [label=<<table title="ev3dev.hardware.motor.BasicMotor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ev3dev/hardware/motor/BasicMotor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> BasicMotor </font></td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> # INVALID_MODE : int </td></tr>
-<tr><td align="left" balign="left"> # mode : int </td></tr>
-<tr><td align="left" balign="left"> # power : int </td></tr>
+<tr><td align="left" balign="left"> - SYSTEM_CLASS_NAME : String </td></tr>
+<tr><td align="left" balign="left"> - SYSTEM_PORT_CLASS_NAME : String </td></tr>
+<tr><td align="left" balign="left"> - MODE : String </td></tr>
+<tr><td align="left" balign="left"> - DUTY_CYCLE : String </td></tr>
+<tr><td align="left" balign="left"> - POWER : String </td></tr>
+<tr><td align="left" balign="left"> - COMMAND : String </td></tr>
+<tr><td align="left" balign="left"> - RUN_FOREVER : String </td></tr>
+<tr><td align="left" balign="left"> - BRAKE : String </td></tr>
+<tr><td align="left" balign="left"> - STOP : String </td></tr>
+<tr><td align="left" balign="left"> - STATE : String </td></tr>
+<tr><td align="left" balign="left"> - STATE_RUNNING : String </td></tr>
+<tr><td align="left" balign="left"> # local_power : int </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + BasicMotor(type : String, portName : String) </td></tr>
+<tr><td align="left" balign="left"> + BasicMotor(portName : String) </td></tr>
 <tr><td align="left" balign="left"> + setPower(power : int) </td></tr>
 <tr><td align="left" balign="left"> + getPower() : int </td></tr>
-<tr><td align="left" balign="left"> # updateState(newMode : int) </td></tr>
 <tr><td align="left" balign="left"> + forward() </td></tr>
 <tr><td align="left" balign="left"> + backward() </td></tr>
 <tr><td align="left" balign="left"> + isMoving() : boolean </td></tr>
@@ -32,7 +40,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="../../ev3dev/hardware/motor/BasicMotor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// lejos.robotics.BaseMotor
-	c1189 [label=<<table title="lejos.robotics.BaseMotor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BaseMotor.html">
+	c1795 [label=<<table title="lejos.robotics.BaseMotor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BaseMotor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> BaseMotor </td></tr>
@@ -49,7 +57,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./BaseMotor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// lejos.robotics.DCMotor
-	c1191 [label=<<table title="lejos.robotics.DCMotor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DCMotor.html">
+	c1799 [label=<<table title="lejos.robotics.DCMotor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DCMotor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> DCMotor </td></tr>
@@ -63,8 +71,8 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./DCMotor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//ev3dev.hardware.motor.BasicMotor implements lejos.robotics.DCMotor
-	c1191:p -> c1173:p [dir=back,arrowtail=empty,style=dashed];
+	c1799:p -> c1767:p [dir=back,arrowtail=empty,style=dashed];
 	//lejos.robotics.DCMotor implements lejos.robotics.BaseMotor
-	c1189:p -> c1191:p [dir=back,arrowtail=empty,style=dashed];
+	c1795:p -> c1799:p [dir=back,arrowtail=empty,style=dashed];
 }
 

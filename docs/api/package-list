@@ -1,8 +1,11 @@
+ev3dev
 ev3dev.hardware
 ev3dev.hardware.motor
 ev3dev.hardware.port
 ev3dev.hardware.sensor
 ev3dev.hardware.sensor.ev3
+ev3dev.robotics.tts
+ev3dev.utils
 lejos.robotics
 lejos.robotics.filter
 lejos.utility

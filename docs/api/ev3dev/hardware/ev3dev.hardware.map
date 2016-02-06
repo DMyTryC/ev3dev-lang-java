@@ -1,14 +1,16 @@
 <map id="G" name="G">
-<area shape="rect" id="node1_0" href="./Battery.html" title="ev3dev.hardware.Battery" alt="" coords="15,11,225,165"/>
-<area shape="rect" id="node1" href="./Battery.html" title="&lt;TABLE&gt;" alt="" coords="5,6,235,170"/>
-<area shape="rect" id="node2_1" href="./Device.html" title="ev3dev.hardware.Device" alt="" coords="270,35,493,141"/>
-<area shape="rect" id="node2" href="./Device.html" title="&lt;TABLE&gt;" alt="" coords="259,30,503,146"/>
-<area shape="rect" id="node4_2" href="./EV3DevDevice.html" title="ev3dev.hardware.EV3DevDevice" alt="" coords="225,225,537,378"/>
-<area shape="rect" id="node4" href="./EV3DevDevice.html" title="&lt;TABLE&gt;" alt="" coords="215,219,548,383"/>
-<area shape="rect" id="node3_3" href="./DeviceException.html" title="ev3dev.hardware.DeviceException" alt="" coords="539,27,893,149"/>
-<area shape="rect" id="node3" href="./DeviceException.html" title="&lt;TABLE&gt;" alt="" coords="528,22,904,154"/>
-<area shape="rect" id="node5_4" href="./Shell.html" title="ev3dev.hardware.Shell" alt="" coords="939,43,1234,133"/>
-<area shape="rect" id="node5" href="./Shell.html" title="&lt;TABLE&gt;" alt="" coords="929,38,1245,138"/>
-<area shape="rect" id="node6_5" href="./Sysfs.html" title="ev3dev.hardware.Sysfs" alt="" coords="1280,19,1616,157"/>
-<area shape="rect" id="node6" href="./Sysfs.html" title="&lt;TABLE&gt;" alt="" coords="1269,14,1627,162"/>
+<area shape="rect" id="node1_0" href="./Battery.html" title="ev3dev.hardware.Battery" alt="" coords="15,486,225,671"/>
+<area shape="rect" id="node1" href="./Battery.html" title="&lt;TABLE&gt;" alt="" coords="5,481,235,677"/>
+<area shape="rect" id="node2_1" href="./Device.html" title="ev3dev.hardware.Device" alt="" coords="319,19,542,125"/>
+<area shape="rect" id="node2" href="./Device.html" title="&lt;TABLE&gt;" alt="" coords="309,14,553,130"/>
+<area shape="rect" id="node5_2" href="./EV3DevSysfs.html" title="ev3dev.hardware.EV3DevSysfs" alt="" coords="263,193,599,362"/>
+<area shape="rect" id="node5" href="./EV3DevSysfs.html" title="&lt;TABLE&gt;" alt="" coords="252,187,609,367"/>
+<area shape="rect" id="node3_3" href="./DeviceException.html" title="ev3dev.hardware.DeviceException" alt="" coords="588,11,943,133"/>
+<area shape="rect" id="node3" href="./DeviceException.html" title="&lt;TABLE&gt;" alt="" coords="577,6,953,138"/>
+<area shape="rect" id="node4_4" href="./EV3DevDevice.html" title="ev3dev.hardware.EV3DevDevice" alt="" coords="270,478,591,679"/>
+<area shape="rect" id="node4" href="./EV3DevDevice.html" title="&lt;TABLE&gt;" alt="" coords="259,473,602,685"/>
+<area shape="rect" id="node7_5" href="./Sound.html" title="ev3dev.hardware.Sound" alt="" coords="637,422,969,735"/>
+<area shape="rect" id="node7" href="./Sound.html" title="&lt;TABLE&gt;" alt="" coords="626,417,979,741"/>
+<area shape="rect" id="node6_6" href="./Power.html" title="ev3dev.hardware.Power" alt="" coords="30,225,210,330"/>
+<area shape="rect" id="node6" href="./Power.html" title="&lt;TABLE&gt;" alt="" coords="19,219,221,335"/>
 </map>

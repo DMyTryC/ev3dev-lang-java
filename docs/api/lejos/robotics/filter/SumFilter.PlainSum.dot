@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// lejos.robotics.filter.SampleBuffer
-	c3598 [label=<<table title="lejos.robotics.filter.SampleBuffer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SampleBuffer.html">
+	c5842 [label=<<table title="lejos.robotics.filter.SampleBuffer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SampleBuffer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> SampleBuffer </font></td></tr>
 		</table></td></tr>
@@ -31,7 +31,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./SampleBuffer.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// lejos.robotics.filter.SumFilter.PlainSum
-	c3604 [label=<<table title="lejos.robotics.filter.SumFilter.PlainSum" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SumFilter.PlainSum.html">
+	c5848 [label=<<table title="lejos.robotics.filter.SumFilter.PlainSum" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SumFilter.PlainSum.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PlainSum </td></tr>
 		</table></td></tr>
@@ -44,6 +44,6 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./SumFilter.PlainSum.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//lejos.robotics.filter.SumFilter.PlainSum extends lejos.robotics.filter.SampleBuffer
-	c3598:p -> c3604:p [dir=back,arrowtail=empty];
+	c5842:p -> c5848:p [dir=back,arrowtail=empty];
 }
 

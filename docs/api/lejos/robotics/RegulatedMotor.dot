@@ -10,16 +10,34 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// ev3dev.hardware.motor.BaseRegulatedMotor
-	c2800 [label=<<table title="ev3dev.hardware.motor.BaseRegulatedMotor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ev3dev/hardware/motor/BaseRegulatedMotor.html">
+	c4763 [label=<<table title="ev3dev.hardware.motor.BaseRegulatedMotor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../ev3dev/hardware/motor/BaseRegulatedMotor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> BaseRegulatedMotor </font></td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> # MAX_SPEED_AT_9V : int </td></tr>
-<tr><td align="left" balign="left"> # NO_LIMIT : int </td></tr>
 <tr><td align="left" balign="left"> # speed : float </td></tr>
 <tr><td align="left" balign="left"> # acceleration : int </td></tr>
 <tr><td align="left" balign="left"> - SYSTEM_CLASS_NAME : String </td></tr>
+<tr><td align="left" balign="left"> - SYSTEM_PORT_CLASS_NAME : String </td></tr>
+<tr><td align="left" balign="left"> - MODE : String </td></tr>
+<tr><td align="left" balign="left"> - SPEED_REGULATION : String </td></tr>
+<tr><td align="left" balign="left"> - SPEED_REGULATION_ON : String </td></tr>
+<tr><td align="left" balign="left"> - SPEED_REGULATION_OFF : String </td></tr>
+<tr><td align="left" balign="left"> - POSITION : String </td></tr>
+<tr><td align="left" balign="left"> - SPEED : String </td></tr>
+<tr><td align="left" balign="left"> - DUTY_CYCLE : String </td></tr>
+<tr><td align="left" balign="left"> - COMMAND : String </td></tr>
+<tr><td align="left" balign="left"> - RUN_FOREVER : String </td></tr>
+<tr><td align="left" balign="left"> - BRAKE : String </td></tr>
+<tr><td align="left" balign="left"> - STOP : String </td></tr>
+<tr><td align="left" balign="left"> - RESET : String </td></tr>
+<tr><td align="left" balign="left"> - RUN_TO_REL_POS : String </td></tr>
+<tr><td align="left" balign="left"> - RUN_TO_ABS_POS : String </td></tr>
+<tr><td align="left" balign="left"> - STATE : String </td></tr>
+<tr><td align="left" balign="left"> - STATE_RUNNING : String </td></tr>
+<tr><td align="left" balign="left"> - STATE_STALLED : String </td></tr>
+<tr><td align="left" balign="left"> - local_speed : int </td></tr>
+<tr><td align="left" balign="left"> - regulationFlag : boolean </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left"> + BaseRegulatedMotor(motorPort : String, moveP : float, moveI : float, moveD : float, holdP : float, holdI : float, holdD : float, offset : int, maxSpeed : int) </td></tr>
@@ -30,32 +48,22 @@ digraph G {
 <tr><td align="left" balign="left"> + forward() </td></tr>
 <tr><td align="left" balign="left"> + backward() </td></tr>
 <tr><td align="left" balign="left"> + flt() </td></tr>
-<tr><td align="left" balign="left"> + flt(immediateReturn : boolean) </td></tr>
 <tr><td align="left" balign="left"> + stop() </td></tr>
-<tr><td align="left" balign="left"> + stop(immediateReturn : boolean) </td></tr>
 <tr><td align="left" balign="left"> + isMoving() : boolean </td></tr>
-<tr><td align="left" balign="left"> + waitComplete() </td></tr>
-<tr><td align="left" balign="left"> + rotateTo(limitAngle : int, immediateReturn : boolean) </td></tr>
 <tr><td align="left" balign="left"> + setSpeed(speed : int) </td></tr>
-<tr><td align="left" balign="left"> + setSpeed(speed : float) </td></tr>
-<tr><td align="left" balign="left"> + setAcceleration(acceleration : int) </td></tr>
-<tr><td align="left" balign="left"> + getAcceleration() : int </td></tr>
-<tr><td align="left" balign="left"> + getLimitAngle() : int </td></tr>
 <tr><td align="left" balign="left"> + resetTachoCount() </td></tr>
-<tr><td align="left" balign="left"> + addListener(listener : RegulatedMotorListener) </td></tr>
-<tr><td align="left" balign="left"> + removeListener() : RegulatedMotorListener </td></tr>
+<tr><td align="left" balign="left"> - isRunning() : boolean </td></tr>
 <tr><td align="left" balign="left"> + rotate(angle : int, immediateReturn : boolean) </td></tr>
 <tr><td align="left" balign="left"> + rotate(angle : int) </td></tr>
+<tr><td align="left" balign="left"> + rotateTo(limitAngle : int, immediateReturn : boolean) </td></tr>
 <tr><td align="left" balign="left"> + rotateTo(limitAngle : int) </td></tr>
 <tr><td align="left" balign="left"> + getSpeed() : int </td></tr>
 <tr><td align="left" balign="left"> + isStalled() : boolean </td></tr>
-<tr><td align="left" balign="left"> + setStallThreshold(error : int, time : int) </td></tr>
 <tr><td align="left" balign="left"> + getRotationSpeed() : int </td></tr>
-<tr><td align="left" balign="left"> + getMaxSpeed() : float </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../ev3dev/hardware/motor/BaseRegulatedMotor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// lejos.robotics.BaseMotor
-	c2817 [label=<<table title="lejos.robotics.BaseMotor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BaseMotor.html">
+	c4792 [label=<<table title="lejos.robotics.BaseMotor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BaseMotor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> BaseMotor </td></tr>
@@ -72,7 +80,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./BaseMotor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// lejos.robotics.RegulatedMotor
-	c2821 [label=<<table title="lejos.robotics.RegulatedMotor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RegulatedMotor.html">
+	c4799 [label=<<table title="lejos.robotics.RegulatedMotor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RegulatedMotor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> RegulatedMotor </td></tr>
@@ -81,27 +89,18 @@ digraph G {
 <tr><td align="left" balign="left">  </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"><font face="Helvetica-Oblique" point-size="10.0"> + addListener(listener : RegulatedMotorListener) </font></td></tr>
-<tr><td align="left" balign="left"><font face="Helvetica-Oblique" point-size="10.0"> + removeListener() : RegulatedMotorListener </font></td></tr>
-<tr><td align="left" balign="left"><font face="Helvetica-Oblique" point-size="10.0"> + stop(immediateReturn : boolean) </font></td></tr>
-<tr><td align="left" balign="left"><font face="Helvetica-Oblique" point-size="10.0"> + flt(immediateReturn : boolean) </font></td></tr>
-<tr><td align="left" balign="left"><font face="Helvetica-Oblique" point-size="10.0"> + waitComplete() </font></td></tr>
 <tr><td align="left" balign="left"><font face="Helvetica-Oblique" point-size="10.0"> + rotate(angle : int, immediateReturn : boolean) </font></td></tr>
 <tr><td align="left" balign="left"><font face="Helvetica-Oblique" point-size="10.0"> + rotate(angle : int) </font></td></tr>
 <tr><td align="left" balign="left"><font face="Helvetica-Oblique" point-size="10.0"> + rotateTo(limitAngle : int) </font></td></tr>
 <tr><td align="left" balign="left"><font face="Helvetica-Oblique" point-size="10.0"> + rotateTo(limitAngle : int, immediateReturn : boolean) </font></td></tr>
-<tr><td align="left" balign="left"><font face="Helvetica-Oblique" point-size="10.0"> + getLimitAngle() : int </font></td></tr>
 <tr><td align="left" balign="left"><font face="Helvetica-Oblique" point-size="10.0"> + setSpeed(speed : int) </font></td></tr>
 <tr><td align="left" balign="left"><font face="Helvetica-Oblique" point-size="10.0"> + getSpeed() : int </font></td></tr>
-<tr><td align="left" balign="left"><font face="Helvetica-Oblique" point-size="10.0"> + getMaxSpeed() : float </font></td></tr>
 <tr><td align="left" balign="left"><font face="Helvetica-Oblique" point-size="10.0"> + isStalled() : boolean </font></td></tr>
-<tr><td align="left" balign="left"><font face="Helvetica-Oblique" point-size="10.0"> + setStallThreshold(error : int, time : int) </font></td></tr>
-<tr><td align="left" balign="left"><font face="Helvetica-Oblique" point-size="10.0"> + setAcceleration(acceleration : int) </font></td></tr>
 <tr><td align="left" balign="left"><font face="Helvetica-Oblique" point-size="10.0"> + close() </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./RegulatedMotor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// lejos.robotics.Tachometer
-	c2824 [label=<<table title="lejos.robotics.Tachometer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Tachometer.html">
+	c4801 [label=<<table title="lejos.robotics.Tachometer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Tachometer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Tachometer </td></tr>
@@ -114,15 +113,15 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./Tachometer.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//ev3dev.hardware.motor.BaseRegulatedMotor implements lejos.robotics.RegulatedMotor
-	c2821:p -> c2800:p [dir=back,arrowtail=empty,style=dashed];
+	c4799:p -> c4763:p [dir=back,arrowtail=empty,style=dashed];
 	//lejos.robotics.RegulatedMotor implements lejos.robotics.BaseMotor
-	c2817:p -> c2821:p [dir=back,arrowtail=empty,style=dashed];
+	c4792:p -> c4799:p [dir=back,arrowtail=empty,style=dashed];
 	//lejos.robotics.RegulatedMotor implements lejos.robotics.Tachometer
-	c2824:p -> c2821:p [dir=back,arrowtail=empty,style=dashed];
+	c4801:p -> c4799:p [dir=back,arrowtail=empty,style=dashed];
 	//lejos.robotics.RegulatedMotor implements java.io.Closeable
-	c2852:p -> c2821:p [dir=back,arrowtail=empty,style=dashed];
+	c4828:p -> c4799:p [dir=back,arrowtail=empty,style=dashed];
 	// java.io.Closeable
-	c2852 [label=<<table title="java.io.Closeable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Closeable.html">
+	c4828 [label=<<table title="java.io.Closeable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Closeable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Closeable </td></tr>

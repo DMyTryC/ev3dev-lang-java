@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// lejos.robotics.filter.MinimumFilter
-	c2429 [label=<<table title="lejos.robotics.filter.MinimumFilter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MinimumFilter.html">
+	c4227 [label=<<table title="lejos.robotics.filter.MinimumFilter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MinimumFilter.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MinimumFilter </td></tr>
 		</table></td></tr>
@@ -25,7 +25,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./MinimumFilter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// lejos.robotics.filter.SampleBuffer
-	c2434 [label=<<table title="lejos.robotics.filter.SampleBuffer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SampleBuffer.html">
+	c4232 [label=<<table title="lejos.robotics.filter.SampleBuffer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SampleBuffer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> SampleBuffer </font></td></tr>
 		</table></td></tr>
@@ -46,6 +46,6 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./SampleBuffer.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//lejos.robotics.filter.MinimumFilter extends lejos.robotics.filter.SampleBuffer
-	c2434:p -> c2429:p [dir=back,arrowtail=empty];
+	c4232:p -> c4227:p [dir=back,arrowtail=empty];
 }
 

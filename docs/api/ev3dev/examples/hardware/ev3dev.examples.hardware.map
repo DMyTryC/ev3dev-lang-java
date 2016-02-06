@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./BatteryDemo.html" title="ev3dev.examples.hardware.BatteryDemo" alt="" coords="16,51,163,141"/>
+<area shape="rect" id="node1" href="./BatteryDemo.html" title="&lt;TABLE&gt;" alt="" coords="5,46,173,146"/>
+<area shape="rect" id="node2_1" href="./SoundDemo.html" title="ev3dev.examples.hardware.SoundDemo" alt="" coords="208,11,355,181"/>
+<area shape="rect" id="node2" href="./SoundDemo.html" title="&lt;TABLE&gt;" alt="" coords="197,6,365,186"/>
+<area shape="rect" id="node3_2" href="./TTSDemo.html" title="ev3dev.examples.hardware.TTSDemo" alt="" coords="400,51,547,141"/>
+<area shape="rect" id="node3" href="./TTSDemo.html" title="&lt;TABLE&gt;" alt="" coords="389,46,557,146"/>
+</map>

@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// lejos.robotics.filter.AbstractFilter
-	c2944 [label=<<table title="lejos.robotics.filter.AbstractFilter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractFilter.html">
+	c4878 [label=<<table title="lejos.robotics.filter.AbstractFilter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractFilter.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractFilter </font></td></tr>
 		</table></td></tr>
@@ -25,7 +25,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./AbstractFilter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// lejos.robotics.filter.MaximumFilter
-	c2951 [label=<<table title="lejos.robotics.filter.MaximumFilter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MaximumFilter.html">
+	c4884 [label=<<table title="lejos.robotics.filter.MaximumFilter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MaximumFilter.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MaximumFilter </td></tr>
 		</table></td></tr>
@@ -40,7 +40,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./MaximumFilter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// lejos.robotics.filter.MedianFilter
-	c2953 [label=<<table title="lejos.robotics.filter.MedianFilter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MedianFilter.html">
+	c4886 [label=<<table title="lejos.robotics.filter.MedianFilter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MedianFilter.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MedianFilter </td></tr>
 		</table></td></tr>
@@ -53,7 +53,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./MedianFilter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// lejos.robotics.filter.MinimumFilter
-	c2954 [label=<<table title="lejos.robotics.filter.MinimumFilter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MinimumFilter.html">
+	c4887 [label=<<table title="lejos.robotics.filter.MinimumFilter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MinimumFilter.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MinimumFilter </td></tr>
 		</table></td></tr>
@@ -68,7 +68,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./MinimumFilter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// lejos.robotics.filter.SampleBuffer
-	c2959 [label=<<table title="lejos.robotics.filter.SampleBuffer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SampleBuffer.html">
+	c4892 [label=<<table title="lejos.robotics.filter.SampleBuffer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SampleBuffer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> SampleBuffer </font></td></tr>
 		</table></td></tr>
@@ -89,7 +89,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./SampleBuffer.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// lejos.robotics.filter.SumFilter.PlainSum
-	c2965 [label=<<table title="lejos.robotics.filter.SumFilter.PlainSum" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SumFilter.PlainSum.html">
+	c4898 [label=<<table title="lejos.robotics.filter.SumFilter.PlainSum" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SumFilter.PlainSum.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PlainSum </td></tr>
 		</table></td></tr>
@@ -102,7 +102,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./SumFilter.PlainSum.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// lejos.robotics.filter.SumFilter.SmartSum
-	c2966 [label=<<table title="lejos.robotics.filter.SumFilter.SmartSum" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SumFilter.SmartSum.html">
+	c4899 [label=<<table title="lejos.robotics.filter.SumFilter.SmartSum" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SumFilter.SmartSum.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SmartSum </td></tr>
 		</table></td></tr>
@@ -120,16 +120,16 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./SumFilter.SmartSum.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//lejos.robotics.filter.MaximumFilter extends lejos.robotics.filter.SampleBuffer
-	c2959:p -> c2951:p [dir=back,arrowtail=empty];
+	c4892:p -> c4884:p [dir=back,arrowtail=empty];
 	//lejos.robotics.filter.MedianFilter extends lejos.robotics.filter.SampleBuffer
-	c2959:p -> c2953:p [dir=back,arrowtail=empty];
+	c4892:p -> c4886:p [dir=back,arrowtail=empty];
 	//lejos.robotics.filter.MinimumFilter extends lejos.robotics.filter.SampleBuffer
-	c2959:p -> c2954:p [dir=back,arrowtail=empty];
+	c4892:p -> c4887:p [dir=back,arrowtail=empty];
 	//lejos.robotics.filter.SampleBuffer extends lejos.robotics.filter.AbstractFilter
-	c2944:p -> c2959:p [dir=back,arrowtail=empty];
+	c4878:p -> c4892:p [dir=back,arrowtail=empty];
 	//lejos.robotics.filter.SumFilter.PlainSum extends lejos.robotics.filter.SampleBuffer
-	c2959:p -> c2965:p [dir=back,arrowtail=empty];
+	c4892:p -> c4898:p [dir=back,arrowtail=empty];
 	//lejos.robotics.filter.SumFilter.SmartSum extends lejos.robotics.filter.SampleBuffer
-	c2959:p -> c2966:p [dir=back,arrowtail=empty];
+	c4892:p -> c4899:p [dir=back,arrowtail=empty];
 }
 

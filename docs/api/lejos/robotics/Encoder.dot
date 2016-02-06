@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// lejos.robotics.Encoder
-	c1948 [label=<<table title="lejos.robotics.Encoder" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Encoder.html">
+	c3481 [label=<<table title="lejos.robotics.Encoder" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Encoder.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Encoder </td></tr>
@@ -24,7 +24,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./Encoder.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// lejos.robotics.Tachometer
-	c1952 [label=<<table title="lejos.robotics.Tachometer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Tachometer.html">
+	c3485 [label=<<table title="lejos.robotics.Tachometer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Tachometer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Tachometer </td></tr>
@@ -37,6 +37,6 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./Tachometer.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//lejos.robotics.Tachometer implements lejos.robotics.Encoder
-	c1948:p -> c1952:p [dir=back,arrowtail=empty,style=dashed];
+	c3481:p -> c3485:p [dir=back,arrowtail=empty,style=dashed];
 }
 

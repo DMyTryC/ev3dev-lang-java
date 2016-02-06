@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./ColorSensorDemo.html" title="ev3dev.examples.sensors.ColorSensorDemo" alt="" coords="16,11,189,117"/>
+<area shape="rect" id="node1" href="./ColorSensorDemo.html" title="&lt;TABLE&gt;" alt="" coords="5,6,200,122"/>
+<area shape="rect" id="node2_1" href="./GyroSensorDemo.html" title="ev3dev.examples.sensors.GyroSensorDemo" alt="" coords="235,11,410,117"/>
+<area shape="rect" id="node2" href="./GyroSensorDemo.html" title="&lt;TABLE&gt;" alt="" coords="225,6,421,122"/>
+<area shape="rect" id="node3_2" href="./IRSensorDemo.html" title="ev3dev.examples.sensors.IRSensorDemo" alt="" coords="455,11,606,117"/>
+<area shape="rect" id="node3" href="./IRSensorDemo.html" title="&lt;TABLE&gt;" alt="" coords="445,6,617,122"/>
+<area shape="rect" id="node4_3" href="./TouchSensorDemo.html" title="ev3dev.examples.sensors.TouchSensorDemo" alt="" coords="652,11,833,117"/>
+<area shape="rect" id="node4" href="./TouchSensorDemo.html" title="&lt;TABLE&gt;" alt="" coords="641,6,844,122"/>
+<area shape="rect" id="node5_4" href="./USSensorDemo.html" title="ev3dev.examples.sensors.USSensorDemo" alt="" coords="879,11,1065,117"/>
+<area shape="rect" id="node5" href="./USSensorDemo.html" title="&lt;TABLE&gt;" alt="" coords="868,6,1076,122"/>
+</map>

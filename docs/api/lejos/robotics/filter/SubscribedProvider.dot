@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// lejos.robotics.SampleProvider
-	c3463 [label=<<table title="lejos.robotics.SampleProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../SampleProvider.html">
+	c5678 [label=<<table title="lejos.robotics.SampleProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../SampleProvider.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> SampleProvider </td></tr>
@@ -24,7 +24,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="../SampleProvider.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// lejos.robotics.filter.SubscribedProvider
-	c3486 [label=<<table title="lejos.robotics.filter.SubscribedProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SubscribedProvider.html">
+	c5700 [label=<<table title="lejos.robotics.filter.SubscribedProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SubscribedProvider.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SubscribedProvider </td></tr>
 		</table></td></tr>
@@ -52,6 +52,6 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./SubscribedProvider.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//lejos.robotics.filter.SubscribedProvider implements lejos.robotics.SampleProvider
-	c3463:p -> c3486:p [dir=back,arrowtail=empty,style=dashed];
+	c5678:p -> c5700:p [dir=back,arrowtail=empty,style=dashed];
 }
 

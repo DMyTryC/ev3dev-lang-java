@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// ev3dev.hardware.DeviceException
-	c1343 [label=<<table title="ev3dev.hardware.DeviceException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DeviceException.html">
+	c1981 [label=<<table title="ev3dev.hardware.DeviceException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DeviceException.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DeviceException </td></tr>
 		</table></td></tr>
@@ -25,9 +25,9 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./DeviceException.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//ev3dev.hardware.DeviceException extends java.lang.RuntimeException
-	c1399:p -> c1343:p [dir=back,arrowtail=empty];
+	c2051:p -> c1981:p [dir=back,arrowtail=empty];
 	// java.lang.RuntimeException
-	c1399 [label=<<table title="java.lang.RuntimeException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/RuntimeException.html">
+	c2051 [label=<<table title="java.lang.RuntimeException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/RuntimeException.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RuntimeException </td></tr>
 		</table></td></tr>

@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// lejos.robotics.filter.FilterTerminal
-	c2016 [label=<<table title="lejos.robotics.filter.FilterTerminal" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./FilterTerminal.html">
+	c3636 [label=<<table title="lejos.robotics.filter.FilterTerminal" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./FilterTerminal.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> FilterTerminal </td></tr>
 		</table></td></tr>

@@ -1,8 +1,8 @@
 <map id="G" name="G">
-<area shape="rect" id="node1_0" href="./BaseSensor.html" title="ev3dev.hardware.sensor.BaseSensor" alt="" coords="16,406,323,751"/>
-<area shape="rect" id="node1" href="./BaseSensor.html" title="&lt;TABLE&gt;" alt="" coords="5,401,333,757"/>
-<area shape="rect" id="node2_1" href="./SensorMode.html" title="ev3dev.hardware.sensor.SensorMode" alt="" coords="100,11,239,101"/>
-<area shape="rect" id="node2" href="./SensorMode.html" title="&lt;TABLE&gt;" alt="" coords="89,6,249,106"/>
-<area shape="rect" id="node3_2" href="./SensorModes.html" title="ev3dev.hardware.sensor.SensorModes" alt="" coords="23,161,315,346"/>
-<area shape="rect" id="node3" href="./SensorModes.html" title="&lt;TABLE&gt;" alt="" coords="13,155,326,351"/>
+<area shape="rect" id="node1_0" href="./BaseSensor.html" title="ev3dev.hardware.sensor.BaseSensor" alt="" coords="16,406,344,815"/>
+<area shape="rect" id="node1" href="./BaseSensor.html" title="&lt;TABLE&gt;" alt="" coords="5,401,355,821"/>
+<area shape="rect" id="node2_1" href="./SensorMode.html" title="ev3dev.hardware.sensor.SensorMode" alt="" coords="111,11,249,101"/>
+<area shape="rect" id="node2" href="./SensorMode.html" title="&lt;TABLE&gt;" alt="" coords="100,6,260,106"/>
+<area shape="rect" id="node3_2" href="./SensorModes.html" title="ev3dev.hardware.sensor.SensorModes" alt="" coords="34,161,326,346"/>
+<area shape="rect" id="node3" href="./SensorModes.html" title="&lt;TABLE&gt;" alt="" coords="23,155,337,351"/>
 </map>

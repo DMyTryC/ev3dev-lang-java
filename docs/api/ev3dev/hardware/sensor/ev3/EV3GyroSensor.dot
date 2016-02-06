@@ -10,13 +10,16 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// ev3dev.hardware.sensor.BaseSensor
-	c1472 [label=<<table title="ev3dev.hardware.sensor.BaseSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../BaseSensor.html">
+	c2652 [label=<<table title="ev3dev.hardware.sensor.BaseSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../BaseSensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BaseSensor </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left"> - SYSTEM_CLASS_NAME : String </td></tr>
+<tr><td align="left" balign="left"> - SENSOR_MODES : String </td></tr>
+<tr><td align="left" balign="left"> - SENSOR_MODE : String </td></tr>
 <tr><td align="left" balign="left"> # currentMode : int </td></tr>
+<tr><td align="left" balign="left"> # currentModeS : String </td></tr>
 <tr><td align="left" balign="left"> # modes : SensorMode[] </td></tr>
 <tr><td align="left" balign="left"> ~ modeList : ArrayList&lt;String&gt; </td></tr>
 		</table></td></tr>
@@ -36,10 +39,11 @@ digraph G {
 <tr><td align="left" balign="left"> + getCurrentMode() : int </td></tr>
 <tr><td align="left" balign="left"> + getModeCount() : int </td></tr>
 <tr><td align="left" balign="left"> # switchMode(newMode : int, switchDelay : long) </td></tr>
+<tr><td align="left" balign="left"> # switchMode(newMode : String, switchDelay : long) </td></tr>
 		</table></td></tr>
 		</table>>, URL="../BaseSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// ev3dev.hardware.sensor.ev3.EV3GyroSensor
-	c1475 [label=<<table title="ev3dev.hardware.sensor.ev3.EV3GyroSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./EV3GyroSensor.html">
+	c2661 [label=<<table title="ev3dev.hardware.sensor.ev3.EV3GyroSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./EV3GyroSensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> EV3GyroSensor </td></tr>
 		</table></td></tr>
@@ -54,6 +58,6 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./EV3GyroSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//ev3dev.hardware.sensor.ev3.EV3GyroSensor extends ev3dev.hardware.sensor.BaseSensor
-	c1472:p -> c1475:p [dir=back,arrowtail=empty];
+	c2652:p -> c2661:p [dir=back,arrowtail=empty];
 }
 

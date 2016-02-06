@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./RegulatedMotorDemo.html" title="ev3dev.examples.motors.RegulatedMotorDemo" alt="" coords="15,35,185,125"/>
+<area shape="rect" id="node1" href="./RegulatedMotorDemo.html" title="&lt;TABLE&gt;" alt="" coords="5,30,195,130"/>
+<area shape="rect" id="node2_1" href="./RegulatedMotorRotateDemo.html" title="ev3dev.examples.motors.RegulatedMotorRotateDemo" alt="" coords="230,35,439,125"/>
+<area shape="rect" id="node2" href="./RegulatedMotorRotateDemo.html" title="&lt;TABLE&gt;" alt="" coords="219,30,450,130"/>
+<area shape="rect" id="node3_2" href="./RegulatedMotorRotateDemo2.html" title="ev3dev.examples.motors.RegulatedMotorRotateDemo2" alt="" coords="485,35,701,125"/>
+<area shape="rect" id="node3" href="./RegulatedMotorRotateDemo2.html" title="&lt;TABLE&gt;" alt="" coords="475,30,712,130"/>
+<area shape="rect" id="node4_3" href="./RegulatedMotorRotateToDemo.html" title="ev3dev.examples.motors.RegulatedMotorRotateToDemo" alt="" coords="747,35,970,125"/>
+<area shape="rect" id="node4" href="./RegulatedMotorRotateToDemo.html" title="&lt;TABLE&gt;" alt="" coords="737,30,981,130"/>
+<area shape="rect" id="node5_4" href="./UnregulatedMotorDemo.html" title="ev3dev.examples.motors.UnregulatedMotorDemo" alt="" coords="1015,11,1209,149"/>
+<area shape="rect" id="node5" href="./UnregulatedMotorDemo.html" title="&lt;TABLE&gt;" alt="" coords="1005,6,1219,154"/>
+<area shape="rect" id="node6_5" href="./UnregulatedMotorDemo2.html" title="ev3dev.examples.motors.UnregulatedMotorDemo2" alt="" coords="1254,19,1447,141"/>
+<area shape="rect" id="node6" href="./UnregulatedMotorDemo2.html" title="&lt;TABLE&gt;" alt="" coords="1243,14,1458,146"/>
+</map>

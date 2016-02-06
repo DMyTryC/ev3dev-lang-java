@@ -1,8 +1,8 @@
 <map id="G" name="G">
-<area shape="rect" id="node1_0" href="./Device.html" title="ev3dev.hardware.Device" alt="" coords="61,161,283,266"/>
-<area shape="rect" id="node1" href="./Device.html" title="&lt;TABLE&gt;" alt="" coords="50,155,294,271"/>
-<area shape="rect" id="node2_1" href="./EV3DevDevice.html" title="ev3dev.hardware.EV3DevDevice" alt="" coords="16,326,328,479"/>
-<area shape="rect" id="node2" href="./EV3DevDevice.html" title="&lt;TABLE&gt;" alt="" coords="5,321,339,485"/>
-<area shape="rect" id="node3_2" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Closeable.html" title="java.io.Closeable" alt="" coords="129,11,215,101"/>
-<area shape="rect" id="node3" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Closeable.html" title="&lt;TABLE&gt;" alt="" coords="119,6,225,106"/>
+<area shape="rect" id="node1_0" href="./Device.html" title="ev3dev.hardware.Device" alt="" coords="73,161,295,266"/>
+<area shape="rect" id="node1" href="./Device.html" title="&lt;TABLE&gt;" alt="" coords="62,155,306,271"/>
+<area shape="rect" id="node2_1" href="./EV3DevSysfs.html" title="ev3dev.hardware.EV3DevSysfs" alt="" coords="16,326,352,495"/>
+<area shape="rect" id="node2" href="./EV3DevSysfs.html" title="&lt;TABLE&gt;" alt="" coords="5,321,363,501"/>
+<area shape="rect" id="node3_2" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Closeable.html" title="java.io.Closeable" alt="" coords="141,11,227,101"/>
+<area shape="rect" id="node3" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Closeable.html" title="&lt;TABLE&gt;" alt="" coords="131,6,237,106"/>
 </map>

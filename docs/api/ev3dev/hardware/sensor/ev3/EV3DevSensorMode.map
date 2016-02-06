@@ -1,0 +1,28 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="../../EV3DevSysfs.html" title="ev3dev.hardware.EV3DevSysfs" alt="" coords="940,177,1276,346"/>
+<area shape="rect" id="node1" href="../../EV3DevSysfs.html" title="&lt;TABLE&gt;" alt="" coords="929,171,1287,351"/>
+<area shape="rect" id="node7_1" href="./EV3DevSensorMode.html" title="ev3dev.hardware.sensor.ev3.EV3DevSensorMode" alt="" coords="1309,406,1473,511"/>
+<area shape="rect" id="node7" href="./EV3DevSensorMode.html" title="&lt;TABLE&gt;" alt="" coords="1298,401,1483,517"/>
+<area shape="rect" id="node2_2" href="../SensorMode.html" title="ev3dev.hardware.sensor.SensorMode" alt="" coords="1321,217,1460,306"/>
+<area shape="rect" id="node2" href="../SensorMode.html" title="&lt;TABLE&gt;" alt="" coords="1311,211,1471,311"/>
+<area shape="rect" id="node3_3" href="./EV3ColorSensor.ColorIDMode.html" title="ev3dev.hardware.sensor.ev3.EV3ColorSensor.ColorIDMode" alt="" coords="15,587,281,709"/>
+<area shape="rect" id="node3" href="./EV3ColorSensor.ColorIDMode.html" title="&lt;TABLE&gt;" alt="" coords="5,582,291,714"/>
+<area shape="rect" id="node4_4" href="./EV3ColorSensor.RedMode.html" title="ev3dev.hardware.sensor.ev3.EV3ColorSensor.RedMode" alt="" coords="326,579,591,717"/>
+<area shape="rect" id="node4" href="./EV3ColorSensor.RedMode.html" title="&lt;TABLE&gt;" alt="" coords="315,574,602,722"/>
+<area shape="rect" id="node5_5" href="./EV3ColorSensor.AmbientMode.html" title="ev3dev.hardware.sensor.ev3.EV3ColorSensor.AmbientMode" alt="" coords="637,579,902,717"/>
+<area shape="rect" id="node5" href="./EV3ColorSensor.AmbientMode.html" title="&lt;TABLE&gt;" alt="" coords="626,574,913,722"/>
+<area shape="rect" id="node6_6" href="./EV3ColorSensor.RGBMode.html" title="ev3dev.hardware.sensor.ev3.EV3ColorSensor.RGBMode" alt="" coords="947,579,1213,717"/>
+<area shape="rect" id="node6" href="./EV3ColorSensor.RGBMode.html" title="&lt;TABLE&gt;" alt="" coords="937,574,1223,722"/>
+<area shape="rect" id="node8_7" href="./EV3GyroSensor.AngleMode.html" title="ev3dev.hardware.sensor.ev3.EV3GyroSensor.AngleMode" alt="" coords="1258,571,1523,725"/>
+<area shape="rect" id="node8" href="./EV3GyroSensor.AngleMode.html" title="&lt;TABLE&gt;" alt="" coords="1247,566,1534,730"/>
+<area shape="rect" id="node9_8" href="./EV3IRSensor.DistanceMode.html" title="ev3dev.hardware.sensor.ev3.EV3IRSensor.DistanceMode" alt="" coords="1569,579,1834,717"/>
+<area shape="rect" id="node9" href="./EV3IRSensor.DistanceMode.html" title="&lt;TABLE&gt;" alt="" coords="1558,574,1845,722"/>
+<area shape="rect" id="node10_9" href="./EV3TouchSensor.TouchMode.html" title="ev3dev.hardware.sensor.ev3.EV3TouchSensor.TouchMode" alt="" coords="1879,587,2145,709"/>
+<area shape="rect" id="node10" href="./EV3TouchSensor.TouchMode.html" title="&lt;TABLE&gt;" alt="" coords="1869,582,2155,714"/>
+<area shape="rect" id="node11_10" href="./EV3UltrasonicSensor.DistanceMode.html" title="ev3dev.hardware.sensor.ev3.EV3UltrasonicSensor.DistanceMode" alt="" coords="2190,571,2455,725"/>
+<area shape="rect" id="node11" href="./EV3UltrasonicSensor.DistanceMode.html" title="&lt;TABLE&gt;" alt="" coords="2179,566,2466,730"/>
+<area shape="rect" id="node12_11" href="./EV3UltrasonicSensor.ListenMode.html" title="ev3dev.hardware.sensor.ev3.EV3UltrasonicSensor.ListenMode" alt="" coords="2501,579,2766,717"/>
+<area shape="rect" id="node12" href="./EV3UltrasonicSensor.ListenMode.html" title="&lt;TABLE&gt;" alt="" coords="2490,574,2777,722"/>
+<area shape="rect" id="node13_12" href="../../../../lejos/robotics/SampleProvider.html" title="lejos.robotics.SampleProvider" alt="" coords="1317,11,1582,117"/>
+<area shape="rect" id="node13" href="../../../../lejos/robotics/SampleProvider.html" title="&lt;TABLE&gt;" alt="" coords="1306,6,1593,122"/>
+</map>

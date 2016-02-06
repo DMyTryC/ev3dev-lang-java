@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// lejos.robotics.filter.AbstractFilter
-	c3525 [label=<<table title="lejos.robotics.filter.AbstractFilter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractFilter.html">
+	c5755 [label=<<table title="lejos.robotics.filter.AbstractFilter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractFilter.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractFilter </font></td></tr>
 		</table></td></tr>
@@ -25,7 +25,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./AbstractFilter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// lejos.robotics.filter.MeanFilter
-	c3533 [label=<<table title="lejos.robotics.filter.MeanFilter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MeanFilter.html">
+	c5762 [label=<<table title="lejos.robotics.filter.MeanFilter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MeanFilter.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MeanFilter </td></tr>
 		</table></td></tr>
@@ -38,7 +38,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./MeanFilter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// lejos.robotics.filter.SumFilter
-	c3545 [label=<<table title="lejos.robotics.filter.SumFilter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SumFilter.html">
+	c5774 [label=<<table title="lejos.robotics.filter.SumFilter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SumFilter.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SumFilter </td></tr>
 		</table></td></tr>
@@ -52,8 +52,8 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./SumFilter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//lejos.robotics.filter.MeanFilter extends lejos.robotics.filter.SumFilter
-	c3545:p -> c3533:p [dir=back,arrowtail=empty];
+	c5774:p -> c5762:p [dir=back,arrowtail=empty];
 	//lejos.robotics.filter.SumFilter extends lejos.robotics.filter.AbstractFilter
-	c3525:p -> c3545:p [dir=back,arrowtail=empty];
+	c5755:p -> c5774:p [dir=back,arrowtail=empty];
 }
 

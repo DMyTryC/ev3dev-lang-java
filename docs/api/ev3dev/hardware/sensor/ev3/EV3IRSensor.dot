@@ -10,13 +10,16 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// ev3dev.hardware.sensor.BaseSensor
-	c1588 [label=<<table title="ev3dev.hardware.sensor.BaseSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../BaseSensor.html">
+	c2798 [label=<<table title="ev3dev.hardware.sensor.BaseSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../BaseSensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BaseSensor </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left"> - SYSTEM_CLASS_NAME : String </td></tr>
+<tr><td align="left" balign="left"> - SENSOR_MODES : String </td></tr>
+<tr><td align="left" balign="left"> - SENSOR_MODE : String </td></tr>
 <tr><td align="left" balign="left"> # currentMode : int </td></tr>
+<tr><td align="left" balign="left"> # currentModeS : String </td></tr>
 <tr><td align="left" balign="left"> # modes : SensorMode[] </td></tr>
 <tr><td align="left" balign="left"> ~ modeList : ArrayList&lt;String&gt; </td></tr>
 		</table></td></tr>
@@ -36,10 +39,11 @@ digraph G {
 <tr><td align="left" balign="left"> + getCurrentMode() : int </td></tr>
 <tr><td align="left" balign="left"> + getModeCount() : int </td></tr>
 <tr><td align="left" balign="left"> # switchMode(newMode : int, switchDelay : long) </td></tr>
+<tr><td align="left" balign="left"> # switchMode(newMode : String, switchDelay : long) </td></tr>
 		</table></td></tr>
 		</table>>, URL="../BaseSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// ev3dev.hardware.sensor.ev3.EV3IRSensor
-	c1593 [label=<<table title="ev3dev.hardware.sensor.ev3.EV3IRSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./EV3IRSensor.html">
+	c2809 [label=<<table title="ev3dev.hardware.sensor.ev3.EV3IRSensor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./EV3IRSensor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> EV3IRSensor </td></tr>
 		</table></td></tr>
@@ -53,6 +57,6 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./EV3IRSensor.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//ev3dev.hardware.sensor.ev3.EV3IRSensor extends ev3dev.hardware.sensor.BaseSensor
-	c1588:p -> c1593:p [dir=back,arrowtail=empty];
+	c2798:p -> c2809:p [dir=back,arrowtail=empty];
 }
 
